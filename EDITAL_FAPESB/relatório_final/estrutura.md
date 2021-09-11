@@ -19,7 +19,7 @@ Análises do Atlas.ti.
 ### 2.2. Totais por evento.
 * Quantitativo + Gráfico;
 
-![](graphs/hdb_eventos.png)
+![](https://raw.githubusercontent.com/ericbrasiln/pibic_2020-2021/ea472cbe38a373af4b7ca059a3655685b603320c/EDITAL_FAPESB/graphs/hdb_eventos.png)
 
 * Que conclusão é possível tirar?
 
@@ -31,14 +31,14 @@ Como a HDB tem sido utilizada?
 
 * Quantitativo + Gráfico;
 
-![](graphs/hdb_rec_temporal.png)
+![](https://raw.githubusercontent.com/ericbrasiln/pibic_2020-2021/ea472cbe38a373af4b7ca059a3655685b603320c/EDITAL_FAPESB/graphs/hdb_rec_temporal.png)
 
 Que conclusão é possível tirar?
 
 ### 3.2. Recorte Espacial
 * Quantitativo + Gráfico;
 
-![](graphs/hdb_rec_espacial.png)
+![](https://raw.githubusercontent.com/ericbrasiln/pibic_2020-2021/ea472cbe38a373af4b7ca059a3655685b603320c/EDITAL_FAPESB/graphs/hdb_rec_espacial.png)
 
 * Que conclusão é possível tirar?
 
@@ -46,7 +46,7 @@ Que conclusão é possível tirar?
 
 * Quantitativo + Gráfico;
 
-![](graphs/hdb_temática.png)
+![](https://raw.githubusercontent.com/ericbrasiln/pibic_2020-2021/ea472cbe38a373af4b7ca059a3655685b603320c/EDITAL_FAPESB/graphs/hdb_tem%C3%A1tica.png)
 
 * Que conclusão é possível tirar?
 
@@ -56,12 +56,12 @@ Como a HDB é compreendida pelos autores dos papers?
 
 * Quantitativo + Gráfico;
 
-![](graphs/hdb_usos.png)
+![](https://raw.githubusercontent.com/ericbrasiln/pibic_2020-2021/ea472cbe38a373af4b7ca059a3655685b603320c/EDITAL_FAPESB/graphs/hdb_usos.png)
 
 Metodologia:
 
-![](graphs/eventos.png)
+![](https://raw.githubusercontent.com/ericbrasiln/pibic_2020-2021/ea472cbe38a373af4b7ca059a3655685b603320c/EDITAL_FAPESB/graphs/eventos.png)
 
 * Que conclusão é possível tirar?
 
-5. Conclusões
+1. Conclusões
