@@ -19,7 +19,7 @@ Análises do Atlas.ti.
 ### 2.2. Totais por evento.
 * Quantitativo + Gráfico;
 
-![](img/hdb_eventos.png)
+![](graphs/hdb_eventos.png)
 
 * Que conclusão é possível tirar?
 
@@ -31,14 +31,14 @@ Como a HDB tem sido utilizada?
 
 * Quantitativo + Gráfico;
 
-![](img/hdb_rec_temporal.png)
+![](graphs/hdb_rec_temporal.png)
 
 Que conclusão é possível tirar?
 
 ### 3.2. Recorte Espacial
 * Quantitativo + Gráfico;
 
-![](img/hdb_rec_espacial.png)
+![](graphs/hdb_rec_espacial.png)
 
 * Que conclusão é possível tirar?
 
@@ -46,7 +46,7 @@ Que conclusão é possível tirar?
 
 * Quantitativo + Gráfico;
 
-![](img/hdb_temática.png)
+![](graphs/hdb_temática.png)
 
 * Que conclusão é possível tirar?
 
@@ -56,11 +56,11 @@ Como a HDB é compreendida pelos autores dos papers?
 
 * Quantitativo + Gráfico;
 
-![](hdb_usos.png)
+![](graphs/hdb_usos.png)
 
 Metodologia:
 
-![](eventos.png)
+![](graphs/eventos.png)
 
 * Que conclusão é possível tirar?
 

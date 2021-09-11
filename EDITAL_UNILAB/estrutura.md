@@ -14,7 +14,7 @@ Bolsista: Priscila
 * Apresentar o total de papers com menção ao `pós-abolição`: soma dos códigos `TEMA CENTRAL` e `TEMA INCIDENTAL` 
 * Explicar o que define os códigos `TEMA CENTRAL` e `TEMA INCIDENTAL`
 
-![rede análise_pós-abolição](img/NETWORK_ANÁLISE_PÓS-ABOLIÇÃO.png)
+![rede análise_pós-abolição](graphs/NETWORK_ANÁLISE_PÓS-ABOLIÇÃO.png)
 
 ### 2.1. Eventos
 
@@ -59,11 +59,11 @@ Bolsista: Priscila
 
 Nuvem de palavras dos títulos dos papers com menção ao `pós-abolição`
 
-![nuvem títulos](img/WC_TÍTULOS.jpg)
+![nuvem títulos](graphs/WC_TÍTULOS.jpg)
 
 Nuvem de palavras dos papers codificados como `TEMA CENTRAL`
 
-![nuvem tema central](img/WC_TEMA_CENTRAL.jpg)
+![nuvem tema central](graphs/WC_TEMA_CENTRAL.jpg)
 
 
 ## 4. Usos na pesquisa em história
