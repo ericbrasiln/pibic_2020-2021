@@ -1,0 +1,28 @@
+<h2>Informações detalhadas</h2>
+<h3>País/Região</h3>
+<p>Trinidad e Tobago</p>
+<h3>Acesso</h3>
+<p>Livre</p>
+<h3>Link</h3>
+<p><a href="http://library2.nalis.gov.tt/DigitalLibrary.html">http://library2.nalis.gov.tt/DigitalLibrary.html</a></p>
+<h3>Lançamento</h3>
+<p>2013</p>
+<h3>Resumo</h3>
+<p>A Biblioteca Digital de Trinidad e Tobago é uma coleção crescente de recursos digitais destacando as pessoas, lugares, estilo de vida, cultura e eventos de Trinidad e Tobago ao longo de sua história. Seu papel é preservar e proporcionar acesso ao patrimônio do país. O acervo inclui fotografias, vídeos, gravações de áudio, livros, panfletos, jornais e manuscritos. Esses recursos informativos abrangem questões sociais, econômicas, culturais, educacionais, científicas e históricas. (Tradução do resumo disponível no site)</p>
+<h3>Filtros</h3>
+<ul>
+	<li>Palavras-chave</li>
+	<li>Coleções</li>
+	<li>Aceita expressões regulares</li>
+	<li>Título</li>
+	<li>autor</li>
+	<li>Os filtros mudam entre as coleções.</li>
+</ul>
+<h3>Acesso às ocorrências</h3>
+<ul>
+	<li>Download de imagem da página com resultado (JPG, PNG, etc)</li>
+	<li>Download de PDF sem OCR</li>
+</ul>
+<h3>Considerações da Análise</h3>
+<p>E necessário ir na coleção desejada para poder pesquisar, só é possível submeter duas características de filtro por busca, o que torna a busca bem limitada. Os cinco links rápidos disponibilizados na pagina inicial não tem resposta na web.</p>
+<small>Para acessar a planilha completa <a href="https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vTPRdKwOLSCJ4Zn6aDVn6g1b66aTZtK77tQfod8_vRS3bMeEhQrNHzA4PSUaY8VqG0voKLVjWjdQ3ib/pubhtml">clique aqui</a>.</small>
