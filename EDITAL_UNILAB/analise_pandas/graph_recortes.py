@@ -17,8 +17,9 @@ def read_csv(path):
 def organize_df(df):
     # invert the dataframe
     df = df.T
+    print(df)
     #drop the first row (columns names)
-    df = df.drop(df.index[0])
+    df = df.drop(df.index[0]) # in graph bar_tem delete this line of code
     df.index.name = ''
     # reset the index and rename the columns
     df = df.reset_index()
@@ -93,9 +94,10 @@ def create_horizontal_bar_chart(df, title, width, height, output):
         height=height
         ),
     fig.show()
-    # save the graph as html and png
+    ## save the graph as html and png
     fig.write_html(output + '.html')
     fig.write_image(output + '.png')
+
 # xlsx 'TEMAxANALISE'
 df_analise = read_xlsx('/home/ebn/Documentos/Github/development/pibic_2020-2021/EDITAL_UNILAB/ATLAS/COOC_TEMAxANÁLISE.xlsx')
 df_analise = df_analise.reset_index()
@@ -117,13 +119,16 @@ df_analise2 = organize_df(df_analise)
 # call the function to create the bar chart
 create_bar_chart(df_analise2, 'Usos do termo pós-abolição nos papers da ANPUH: Análise dos sentidos', 800, 600, 'bar_analise')
 
-
 # xlsx file of 'TEMA x TEMPO'
 df_tem = read_xlsx('/home/ebn/Documentos/Github/development/pibic_2020-2021/EDITAL_UNILAB/ATLAS/COOC_TEMAxTEMPORAL.xlsx')
 # rename columns
 df_tem.columns = ['SÉC_XIX', 'SÉC_XVII','SÉC_XVIII','SÉC_XX','SÉC_XXI']
+
 #call the function to organize the dataframe
 df_tem = organize_df(df_tem)
+# sort the dataframe by value in column 'TEMA_CENTRAL'
+df_tem = df_tem.sort_values(by=['TEMA_CENTRAL'], ascending=False)
+
 # call the function to create the bar chart
 create_bar_chart(df_tem, 'Usos do termo pós-abolição nos papers da ANPUH: Recorte Temporal', 800, 600, 'bar_tem')
 
@@ -155,8 +160,6 @@ df_tema = organize_df(df_tema)
 df_tema_sorted = df_tema.sort_values(by=['TEMA_CENTRAL'])
 # call the function to create the horizontal bar chart
 create_horizontal_bar_chart(df_tema_sorted, 'Usos do termo pós-abolição nos papers da ANPUH: Temática Geral', 1200, 1200, 'bar_tema')
-
-print(df_tema_sorted)
 
 # create a df getting the 10 last rows of the dataframe 'df_tema_sorted'
 df_tema_sorted_10 = df_tema_sorted.tail(10)
