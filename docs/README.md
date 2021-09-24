@@ -8,6 +8,8 @@ Material dos projetos PIBIC 2020-2021, sob orientação do Prof. [Eric Brasil](e
 
 ## Projetos
 
+>Acesse a página dos projetos para visualizar os materiais, gráficos e imagens.
+
 ### 1. [História Digital: acervos e ferramentas digitais para pesquisa e ensino]()
 
 Bolsista: **Ana Carolina Veloso**
