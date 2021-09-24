@@ -10,13 +10,13 @@ Material dos projetos PIBIC 2020-2021, sob orientação do Prof. [Eric Brasil](e
 
 >Acesse a página dos projetos para visualizar os materiais, gráficos e imagens.
 
-### 1. [História Digital: acervos e ferramentas digitais para pesquisa e ensino]()
+### 1. [História Digital: acervos e ferramentas digitais para pesquisa e ensino](docs/hdb/README.md)
 
 Bolsista: **Ana Carolina Veloso**
 
 Edital: Proppg 01/2020 (PIBIC/FAPESB)
 
-### 2. [Pós-Abolição: sentidos, usos  e produção acadêmica (2004-2019)]()
+### 2. [Pós-Abolição: sentidos, usos  e produção acadêmica (2004-2019)](docs/pos-abolicao/README.md)
 
 Bolsista: [**Priscila Valverde**](https://github.com/priscilavalverdes)
 
