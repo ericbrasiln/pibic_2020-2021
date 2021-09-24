@@ -20,7 +20,7 @@ Inserir aqui objetivos
 
 ### Gráficos
 
-* [Eventos](docs/hdb/graphs/eventos.html)
+* [Eventos](https://ericbrasiln.github.io/pibic_2020-2021/hdb/graphs/hdb_eventos.html)
 * [Recorte Espacial](https://ericbrasiln.github.io/pibic_2020-2021/hdb/graphs/hdb_rec_espacial.html)
 * [Recorte Temporal](https://ericbrasiln.github.io/pibic_2020-2021/hdb/graphs/hdb_rec_temporal.html)
   
@@ -32,6 +32,6 @@ Inserir aqui objetivos
 
 ---
 
-<img src="https://raw.githubusercontent.com/ericbrasiln/pibic_2020-2021/99af7e0395349b97e6077d582b3f0854131cca5f/docs/imgs/logo_hist.png" alt="Logo História" style="width:200px">
-
-<img src="https://raw.githubusercontent.com/ericbrasiln/pibic_2020-2021/99af7e0395349b97e6077d582b3f0854131cca5f/docs/imgs/logo_unilab.png" alt="Logo UNILAB" style="width:300px">
+<div>
+  <img src="https://raw.githubusercontent.com/ericbrasiln/pibic_2020-2021/99af7e0395349b97e6077d582b3f0854131cca5f/docs/imgs/logo_hist.png" alt="Logo História"     style="width:150px"> <img src="https://raw.githubusercontent.com/ericbrasiln/pibic_2020-2021/99af7e0395349b97e6077d582b3f0854131cca5f/docs/imgs/logo_unilab.png"   alt="Logo UNILAB" style="width:300px">
+</div>
