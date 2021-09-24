@@ -1,4 +1,4 @@
-![banner](imgs/banner_hist.png)
+![banner](docs/imgs/banner_hist.png)
 
 # PIBIC 2020-2021
 
@@ -30,6 +30,6 @@ Edital: PROPPG 04/2020 (PIBIC/UNILAB)
 
 ---
 
-<img src="imgs/logo_hist.png" alt="Logo História" style="width:200px">
+<img src="docs/imgs/logo_hist.png" alt="Logo História" style="width:200px">
 
-<img src="imgs/logo_unilab.png" alt="Logo UNILAB" style="width:300px">
+<img src="docs/imgs/logo_unilab.png" alt="Logo UNILAB" style="width:300px">
