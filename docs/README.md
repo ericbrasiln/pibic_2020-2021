@@ -2,13 +2,13 @@
 
 # PIBIC 2020-2021
 
-Material dos projetos PIBIC 2020-2021, sob orientação do Prof. [Eric Brasil](ericbrasiln.github.io) (IHLM/UNILAB).
+Material, dados, gráficos e demais resultados dos projetos PIBIC 2020-2021 (Proppg 01/2020 -PIBIC/FAPESB e PROPPG 04/2020 - PIBIC/UNILAB), sob orientação do Prof. [Eric Brasil](ericbrasiln.github.io) no Instituto de Humanidades e Letras do campus dos Malês, da Universidade da Integração Internacional da Lusofonia Afro-brasileira (IHLM/UNILAB).
 
 ---
 
 ## Projetos
 
->Acesse a página dos projetos para visualizar os materiais, gráficos e imagens.
+>Acesse a página dos projetos para visualizar os detalhes e dados.
 
 ### 1. [História Digital: acervos e ferramentas digitais para pesquisa e ensino](https://ericbrasiln.github.io/pibic_2020-2021/hdb/)
 
