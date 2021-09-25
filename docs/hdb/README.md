@@ -48,9 +48,13 @@ O projeto História Digital: acervos e ferramentas digitais para pesquisa e ensi
 * [HDB - Metodologia por eventos](https://ericbrasiln.github.io/pibic_2020-2021/hdb/graphs/eventos.html)
 
 ### Hemerotecas Digitais - América Latina e Caribe
+<div>
+  <img src="https://raw.githubusercontent.com/ericbrasiln/pibic_2020-2021/main/EDITAL_FAPESB/storymap/imagens/BHD-AMLC.png" style="width:150px">
+</div> 
 
 * [Planilha completa](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vTPRdKwOLSCJ4Zn6aDVn6g1b66aTZtK77tQfod8_vRS3bMeEhQrNHzA4PSUaY8VqG0voKLVjWjdQ3ib/pubhtml)
 * Mapa interativo: [Bibliotecas e Hemerotecas Digitas - América Latina e Caribe](https://uploads.knightlab.com/storymapjs/9aa02ddad038aeb14528860f3e96b419/biblioteca-e-hemerotecas-digitais/index.html)
+
 
 ---
 
