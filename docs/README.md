@@ -33,3 +33,7 @@ Edital: PROPPG 04/2020 (PIBIC/UNILAB)
 <div>
   <img src="https://raw.githubusercontent.com/ericbrasiln/pibic_2020-2021/99af7e0395349b97e6077d582b3f0854131cca5f/docs/imgs/logo_hist.png" alt="Logo História"     style="width:150px"> <img src="https://raw.githubusercontent.com/ericbrasiln/pibic_2020-2021/99af7e0395349b97e6077d582b3f0854131cca5f/docs/imgs/logo_unilab.png" alt="Logo UNILAB" style="width:300px">
 </div>
+
+***
+
+<small>Autores/as: Eric Brasil, Ana Carolina Veloso e Priscila Valverde</small>
