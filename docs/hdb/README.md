@@ -53,8 +53,8 @@ O projeto História Digital: acervos e ferramentas digitais para pesquisa e ensi
 </div> 
 
 * [Planilha completa](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vTPRdKwOLSCJ4Zn6aDVn6g1b66aTZtK77tQfod8_vRS3bMeEhQrNHzA4PSUaY8VqG0voKLVjWjdQ3ib/pubhtml)
+* [Gráficos da planilha](https://github.com/ericbrasiln/pibic_2020-2021/tree/main/EDITAL_FAPESB/storymap/imagens/graphs_planilha)
 * Mapa interativo: [Bibliotecas e Hemerotecas Digitas - América Latina e Caribe](https://uploads.knightlab.com/storymapjs/9aa02ddad038aeb14528860f3e96b419/biblioteca-e-hemerotecas-digitais/index.html)
-
 
 ---
 
