@@ -65,6 +65,7 @@ def create_bar_chart(df, title, width, height, output):
 def create_horizontal_bar_chart(df, title, width, height, output):
     # Colored Horizontal Bar Chart with go.Bar
     fig = go.Figure()
+    
     fig.add_trace(go.Bar(
         x=df.TEMA_CENTRAL,
         y=df.CÓDIGO,
@@ -75,6 +76,7 @@ def create_horizontal_bar_chart(df, title, width, height, output):
             line=dict(color='rgba(246, 78, 139, 1.0)', width=3)
         )
     ))
+    '''
     fig.add_trace(go.Bar(
         x=df.TEMA_INCIDENTAL,
         y=df.CÓDIGO,
@@ -84,7 +86,7 @@ def create_horizontal_bar_chart(df, title, width, height, output):
             color='rgba(58, 71, 80, 0.6)',
             line=dict(color='rgba(58, 71, 80, 1.0)', width=3)
         )
-    ))
+    ))'''
     fig.update_layout(
         title=title,
         xaxis_title='CITAÇÕES',
@@ -98,7 +100,7 @@ def create_horizontal_bar_chart(df, title, width, height, output):
     fig.write_html(output + '.html')
     fig.write_image(output + '.png')
 
-# xlsx 'TEMAxANALISE'
+'''# xlsx 'TEMAxANALISE'
 df_analise = read_xlsx('/home/ebn/Documentos/Github/development/pibic_2020-2021/EDITAL_UNILAB/ATLAS/COOC_TEMAxANÁLISE.xlsx')
 df_analise = df_analise.reset_index()
 # rename the old index column
@@ -131,22 +133,23 @@ df_tem = df_tem.sort_values(by=['TEMA_CENTRAL'], ascending=False)
 
 # call the function to create the bar chart
 create_bar_chart(df_tem, 'Usos do termo pós-abolição nos papers da ANPUH: Recorte Temporal', 800, 600, 'bar_tem')
-
+'''
 # xlsx file of 'TEMA x ESPAÇO'
-df_esp = df = read_xlsx('/home/ebn/Documentos/Github/development/pibic_2020-2021/EDITAL_UNILAB/ATLAS/COOC_TEMAxESPAÇO.xlsx')
+df_esp = df = read_xlsx('/home/ebn/Documentos/pibic_2020-2021/EDITAL_UNILAB/ATLAS/COOC_TEMAxESPAÇO.xlsx')
 
 # clean the dataframe deleting string valus in column names
 df_esp.columns = df_esp.columns.str.replace('● REC_ESPACIAL::','')
 # delete the string values containing '\nGr=' plus one or two digits
 df_esp.columns = df_esp.columns.str.replace('\nGr=\d{1,2}','', regex=True)
+df_esp = df_esp.drop(columns=['BRASIL'])
 # call the function to organize the dataframe
 df_esp = organize_df(df_esp)
 # sort the dataframe by values in column 'TEMA_CENTRAL'
 df_esp_sorted = df_esp.sort_values(by=['TEMA_CENTRAL'])
 #call the function to create the horizontal bar chart
-create_horizontal_bar_chart(df_esp_sorted, 'Usos do termo pós-abolição nos papers da ANPUH: Recorte Espacial', 1200, 1200, 'bar_esp')
+create_horizontal_bar_chart(df_esp_sorted, 'Usos do termo pós-abolição nos papers da ANPUH: Recorte Espacial', 1200, 1200, 'bar_esp_central_novo')
 
-# xlsx file of 'TEMA x TEMÁTICA'
+'''# xlsx file of 'TEMA x TEMÁTICA'
 df_tema = read_xlsx('/home/ebn/Documentos/Github/development/pibic_2020-2021/EDITAL_UNILAB/ATLAS/COOC_TEMAxTEMÁTICA.xlsx')
 # clean the dataframe deleting string valus in column names
 df_tema.columns = df_tema.columns.str.replace('● TEMÁTICA_GERAL::','')
@@ -162,11 +165,12 @@ df_tema_sorted = df_tema.sort_values(by=['TEMA_CENTRAL'])
 create_horizontal_bar_chart(df_tema_sorted, 'Usos do termo pós-abolição nos papers da ANPUH: Temática Geral', 1200, 1200, 'bar_tema')
 
 # create a df getting the 10 last rows of the dataframe 'df_tema_sorted'
-df_tema_sorted_10 = df_tema_sorted.tail(10)
+df_tema_sorted_10 = df_tema_sorted.tail(10)'''
 # create a df getting the 10 last rows of the dataframe 'df_esp_sorted'
 df_esp_sorted_10 = df_esp_sorted.tail(10)
 
 # create a horizontal bar chart with the 10 first rows of the dataframe 'df_esp'
-create_horizontal_bar_chart(df_esp_sorted_10, 'Usos do termo pós-abolição nos papers da ANPUH: Recorte Espacial - 10 mais frequentes', 1200, 1200, 'bar_esp_10')
-# create a horizontal bar chart with the 10 first rows of the dataframe 'df_tema'
+create_horizontal_bar_chart(df_esp_sorted_10, 'Usos do termo pós-abolição nos papers da ANPUH: Recorte Espacial - 10 mais frequentes', 1200, 1200, 'bar_esp_10_central_novo')
+'''# create a horizontal bar chart with the 10 first rows of the dataframe 'df_tema'
 create_horizontal_bar_chart(df_tema_sorted_10, 'Usos do termo pós-abolição nos papers da ANPUH: Temática Geral - 10 mais frequentes', 1200, 1200, 'bar_tema_10')
+'''
