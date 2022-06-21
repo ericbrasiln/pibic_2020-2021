@@ -8,7 +8,7 @@ Repositório com todo material, dados, resultados dos projetos PIBIC 2020-2021 (
 
 ## Site do projeto
 
-Para acessar todos os detalhes dos projetos, visite o site https://ericbrasiln.github.io/pibic_2020-2021/
+Para acessar todos os detalhes dos projetos, visite o site [https://ericbrasiln.github.io/pibic_2020-2021/](https://ericbrasiln.github.io/pibic_2020-2021/)
 
 ## Pastas dos projetos
 
